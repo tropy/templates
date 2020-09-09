@@ -1,0 +1,103 @@
+{
+  "@context": "https://tropy.org/v1/contexts/template.jsonld",
+  "@id": "https://tropy.org/v1/templates/digital-item",
+  "@type": "https://tropy.org/v1/tropy#Template",
+  "type": "https://tropy.org/v1/tropy#Item",
+  "name": "Tropy Digital Item",
+  "version": "1.0.0",
+  "domain": [],
+  "creator": "RRCHNM",
+  "description": "Template for a digital archival object found on the web",
+  "field": [
+    {
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "hint": "",
+      "isConstant": false,
+      "isRequired": false,
+      "label": null,
+      "property": "http://purl.org/dc/elements/1.1/title",
+      "value": null
+    },
+    {
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "hint": "Author or creator",
+      "isConstant": false,
+      "isRequired": false,
+      "label": null,
+      "property": "http://purl.org/dc/elements/1.1/creator",
+      "value": null
+    },
+    {
+      "datatype": "https://tropy.org/v1/tropy#date",
+      "hint": "ISO format",
+      "isConstant": false,
+      "isRequired": false,
+      "label": null,
+      "property": "http://purl.org/dc/elements/1.1/date",
+      "value": null
+    },
+    {
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "hint": "Type of document or object",
+      "isConstant": false,
+      "isRequired": false,
+      "label": null,
+      "property": "http://purl.org/dc/elements/1.1/type",
+      "value": null
+    },
+    {
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "hint": "Name of the holding archive or repository",
+      "isConstant": false,
+      "isRequired": false,
+      "label": "Archive",
+      "property": "http://purl.org/dc/elements/1.1/source",
+      "value": null
+    },
+    {
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "hint": null,
+      "isConstant": false,
+      "isRequired": false,
+      "label": null,
+      "property": "https://tropy.org/v1/tropy#collection",
+      "value": null
+    },
+    {
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "hint": "Web address of the item",
+      "isConstant": false,
+      "isRequired": false,
+      "label": "Item URL",
+      "property": "http://purl.org/dc/elements/1.1/identifier",
+      "value": null
+    },
+    {
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "hint": "ID or call number",
+      "isConstant": false,
+      "isRequired": false,
+      "label": "Identifier",
+      "property": "http://purl.org/dc/terms/identifier",
+      "value": null
+    },
+    {
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "hint": "PDF, image, text or other",
+      "isConstant": false,
+      "isRequired": false,
+      "label": "Online Format",
+      "property": "http://purl.org/dc/elements/1.1/format",
+      "value": null
+    },
+    {
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "hint": null,
+      "isConstant": false,
+      "isRequired": true,
+      "label": null,
+      "property": "http://purl.org/dc/elements/1.1/rights",
+      "value": null
+    }
+  ]
+}
